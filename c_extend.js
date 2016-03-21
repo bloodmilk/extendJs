@@ -57,8 +57,8 @@ $.extend({
     },
 	//判断是否为数字(暂时正则有问题)
 	isNumber: function(val){
-		var reg = /^\d+|\d+(\.)?\d+$/;
-		return reg.test(val);
+		var back = !isNaN(val);
+		return back;
 	},
 	//判断是否为正整数
 	isInt: function(val){
