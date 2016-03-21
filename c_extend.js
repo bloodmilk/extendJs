@@ -40,7 +40,8 @@ $.extend({
                 return $.trim(val).length == 0 ? true : false;
                 break;
             case 'number':
-                return val == 0;
+            	val = val.toString();
+                return $.trim(val).length == 0 ? true : false;
                 break;
             case 'object':
                 for (var i in val){
