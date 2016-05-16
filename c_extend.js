@@ -1,5 +1,5 @@
 $.extend({
-	//精简console.log输出
+	//精简console.log输出(test)
 	log: function(msg){
 		console.log(msg);
 	},
